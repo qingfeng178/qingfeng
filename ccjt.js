@@ -3,7 +3,7 @@
 **************************************
 
 [rewrite_local]
-http:\/\/cc\.lzjoy\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ccjt.js
+http:\/\/cc\.lzjoy\.com url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/ccjt.js
 
 [mitm]
 hostname = cc.lzjoy.com
