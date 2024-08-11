@@ -9,7 +9,7 @@
 ^http[s]?:\/\/(app.helixlife.cn|api.helixlife.cn)\/api\/v1\/(user/overviews|user/users/profile|edu/trainings|edu/courses)\/* url script-response-body
 https://raw.githubusercontent.com/qingfeng178/qingfeng/main/jieluoxuan.js
 
-mitm] 
+[mitm] 
 hostname = app.helixlife.cn
 
 
