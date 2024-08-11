@@ -14,7 +14,7 @@ url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/
 
 
 [mitm]
-hostname = app.helixlife.cn,api.helixlife.cn
+hostname = app.helixlife.cn
 
 
 
