@@ -8,7 +8,7 @@
 
 
 url script-response-body
-https://github.com/qingfeng178/qf/blob/main/jlx.js
+https://raw.githubusercontent.com/qingfeng178/qingfeng/main/jieluoxuan.js
 
 mitm] 
 hostname = app.helixlife.cn,api.helixlife.cn
