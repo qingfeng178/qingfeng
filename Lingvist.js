@@ -5,7 +5,7 @@ Lingvist-学习语言
 **************************************
 
 [rewrite_local]
-^https:\/\/.*\.lingvist\.com\/.+\/user\/(sync|services) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Lingvist.js
+^https:\/\/.*\.lingvist\.com\/.+\/user\/(sync|services) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/Lingvist.js
 
 [mitm]
 hostname = *.lingvist.com
