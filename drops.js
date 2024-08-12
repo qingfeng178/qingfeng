@@ -8,7 +8,7 @@
 hostname = api.revenuecat.com
 
 */
-const qf = {};
+const gd = {};
 const guding6 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
