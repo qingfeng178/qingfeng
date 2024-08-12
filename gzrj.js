@@ -3,7 +3,7 @@
 ‎格志日记
 
 [rewrite_local]
-^https?:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/gezhiriji.js
+^https?:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/gzrj.js
 
 [MITM]
 hostname = diary-id.sumi.io
