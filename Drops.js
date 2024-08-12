@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/Drops.js.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/Drops.js
 ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/qingfeng178/qingfeng/main/Drops.js
 
 [mitm]
