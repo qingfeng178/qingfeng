@@ -347,7 +347,7 @@ for (const i in list) {
     // 判断是否需要加入版本号
     if (version && version.trim() !== '') { chxm1023["receipt"]["original_application_version"] = version; }
     anchor = true;
-    console.log('恭喜您，已操作成功🎉🎉🎉\n叮当猫の分享频道: https://t.me/chxm1023');
+    console.log('恭喜您，已操作成功🎉🎉🎉\ 1111111);
     break;
   }
 }
@@ -359,10 +359,10 @@ if (!anchor) {
   chxm1023["latest_receipt_info"] = data;
   chxm1023["pending_renewal_info"] = [{ "product_id": yearlyid, "original_transaction_id": "490001314520000", "auto_renew_product_id": yearlyid, "auto_renew_status": "1" }];
   chxm1023["latest_receipt"] = "chxm1023";
-  console.log('很遗憾未能识别出UA或bundle_id\n但已使用备用方案操作成功🎉🎉🎉\n叮当猫の分享频道: https://t.me/chxm1023');
+  console.log('很遗憾未能识别出UA或bundle_id\n但已使用备用方案操作成功🎉🎉🎉\111111);
 }
 
-chxm1023["Telegram"] = "https://t.me/chxm1023";
+chxm1023["Telegram"] = "11111111111111";
 chxm1023["warning"] = "仅供学习，禁止转载或售卖";
 
 $done({ body: JSON.stringify(chxm1023) });
