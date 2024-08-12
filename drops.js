@@ -1,7 +1,5 @@
 /*drops
 
-‎Drops：https://apps.apple.com/app/id939540371
-
 [rewrite_local]
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/Drops.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Guding88/Script/main/Drops.js
@@ -10,7 +8,7 @@
 hostname = api.revenuecat.com
 
 */
-const guding = {};
+const qf = {};
 const guding6 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
