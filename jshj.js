@@ -3,7 +3,7 @@ jiesuo
 **************************************
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://github.com/qingfeng178/qingfeng/main/jshj.js
 
 [mitm]
 hostname = buy.itunes.apple.com
