@@ -360,7 +360,5 @@ if (!anchor) {
   console.log('很遗憾未能识别出UA或bundle_id\n但已使用备用方案操作成功🎉🎉🎉\qqqqqq');
 }
 
-chxm1023["Telegram"] = "111111111";
-chxm1023["warning"] = "仅供学习，禁止转载或售卖";
 
 $done({ body: JSON.stringify(chxm1023) });
