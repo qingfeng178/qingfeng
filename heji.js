@@ -136,9 +136,9 @@ for (var uaKey in uaProductMapping) {
     receipt.product_id = product_id;
     renewal.product_id = product_id;
     renewal.auto_renew_product_id = product_id;
-    guding6.receipt.in_app = [receipt];
-    guding6.latest_receipt_info = [receipt];
-    guding.pending_renewal_info = [renewal];
+    qf2.receipt.in_app = [receipt];
+    qf2.latest_receipt_info = [receipt];
+    qf1.pending_renewal_info = [renewal];
     break;
   }
 }
