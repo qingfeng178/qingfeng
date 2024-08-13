@@ -1,7 +1,7 @@
 **************************************db
 
 [rewrite_local]
-^https:\/\/api-.*\.meitu\.com\/(.+\/user\/vip_info|user\/show) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/qf
+^https:\/\/api-.*\.meitu\.com\/(.+\/user\/vip_info|user\/show) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/qf.js
 
 [mitm]
 hostname = api-*.meitu.com
