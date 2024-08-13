@@ -1,4 +1,4 @@
-**************************************1db
+**************************************1db1
 
 [rewrite_local]
 ^https:\/\/api-.*\.meitu\.com\/(.+\/user\/vip_info|user\/show) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/qf.js
