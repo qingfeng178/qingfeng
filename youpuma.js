@@ -19,11 +19,11 @@ hostname = yopu.co
 *************************************/
 
 
-var qf = JSON.parse($response.body);
+var chxm1023 = JSON.parse($response.body);
 
-qf.level = 1;
-qf.isMember = true;
-qf.adsDisabled = true;
-qf.adsDisabledTill = 4092599349000;
+chxm1023.level = 1;
+chxm1023.isMember = true;
+chxm1023.adsDisabled = true;
+chxm1023.adsDisabledTill = 4092599349000;
 
-$done({ body: JSON.stringify(qf)});
+$done({ body: JSON.stringify(chxm1023)});
