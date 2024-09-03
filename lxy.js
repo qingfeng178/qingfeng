@@ -30,7 +30,6 @@ if (url.includes('/facades/account.show')) {
     obj.data.perpetual_vip = true;
     obj.data.vip = true;
     obj.data.id = obj.data.identifyCode = 10086;
-    obj.data.avatar_url = obj.data.profilePhoto_url = 'https://love-helper.oss-cn-hangzhou.aliyuncs.com/images/2023/09/06/n33C7GybsrML8UHOioWnsV2ERLGjLAnysrqpmLTT.jpg';
     value = AES_Encrypt($.toStr(obj), key, iv);
 	var body = obj2resp({'iv':iv,'value':value});
     $done({
