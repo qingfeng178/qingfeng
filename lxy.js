@@ -29,7 +29,7 @@ if (url.includes('/facades/account.show')) {
     obj.data.vip_expired_at = '3742732800';
     obj.data.perpetual_vip = true;
     obj.data.vip = true;
-    obj.data.id = obj.data.identifyCode = 10086;
+    obj.data.id = obj.data.identifyCode = 17888888;
     value = AES_Encrypt($.toStr(obj), key, iv);
 	var body = obj2resp({'iv':iv,'value':value});
     $done({
