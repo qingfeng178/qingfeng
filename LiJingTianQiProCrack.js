@@ -62,5 +62,5 @@ hostname = ljwapi.baichuan.tech
 
 
 
-var body = $response.body.replace(/vipType":0/g, 'vipType":2').replace(/isVIP":false/g, 'isVIP":true')
+var body = $response.body.replace(/vipType":\d/g, 'vipType":2').replace(/isVIP":\w+/g, 'isVIP":true')
 $done({ body });
