@@ -5,7 +5,7 @@
 [rewrite_local]
   
 # > 莉
-^https?:\/\/ljwapi\.baichuan\.tech\/(VIP\/GetState|Login\/Device|User\/GetPrivateUsers|Vip\/GetVipType) url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/LiJingTianQiProCrack.js
+^https?:\/\/ljwapi\.baichuan\.tech\/ url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/LiJingTianQiProCrack.js
 
 
 [mitm]
