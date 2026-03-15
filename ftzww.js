@@ -1,7 +1,7 @@
 ***********************
 
 [rewrite_local]
-^https:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/ftzww.js
+^dqbam2jv6gg9m.cloudfront.net/index.php/jsapi/paywall url script-response-body https://raw.githubusercontent.com/qingfeng178/qingfeng/main/ftzww.js
 [mitm] 
 hostname = *.cloudfront.net
 
