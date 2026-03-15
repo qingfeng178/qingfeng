@@ -6,8 +6,7 @@
 hostname = *.cloudfront.net
 
 *******************************/
-var qf = JSON.parse($response.qf);
-
+var qf = JSON.parse($response.body);
 qf = {
   "paywall": 0,
   "premium": 1,
@@ -18,5 +17,4 @@ qf = {
   "latest_duration": "yearly",
   "addon": 0
 };
-
 $done({ body: JSON.stringify(qf) });
